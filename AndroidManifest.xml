@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_samar"
+        android:label="MATH"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".algebr.ScoreAlgMainActivity"></activity>
+        <activity android:name=".arithmatic.ScoreArithMainActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".arithmatic.SuccessArithActivity5" />
+        <activity android:name=".arithmatic.SuccessArithActivity4" />
+        <activity android:name=".arithmatic.SuccessArithActivity3" />
+        <activity android:name=".arithmatic.SuccessArithActivity2" />
+        <activity android:name=".arithmatic.SuccessArithActivity1" />
+        <activity android:name=".algebr.SuccessActivity5" />
+        <activity android:name=".algebr.SuccessActivity4" />
+        <activity android:name=".algebr.SuccessActivity3" />
+        <activity android:name=".algebr.SuccessActivity2" />
+        <activity android:name=".algebr.SuccessActivity1" />
+        <activity android:name=".LevelsArithActivity" />
+        <activity android:name=".FailureActivity" />
+        <activity android:name=".SuccessActivity" />
+        <activity android:name=".arithmatic.level5Arith" />
+        <activity android:name=".arithmatic.level4Arith" />
+        <activity android:name=".arithmatic.level3Arith" />
+        <activity android:name=".arithmatic.level2Arith" />
+        <activity android:name=".arithmatic.level1Arith" />
+        <activity android:name=".algebr.level5Alg" />
+        <activity android:name=".algebr.level4Alg" />
+        <activity android:name=".algebr.level3Alg" />
+        <activity android:name=".algebr.level2Alg" />
+        <activity android:name=".algebr.level1Alg" />
+        <activity android:name=".CategoriesActivity" />
+        <activity android:name=".LevelsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
